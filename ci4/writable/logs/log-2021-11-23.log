@@ -1,0 +1,90 @@
+CRITICAL - 2021-11-23 22:13:35 --> Invalid file: kategori/read.php
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/read.p...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/read', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(30): view('kategori/read', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 22:16:37 --> Invalid file: kategori/read.php
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/read.p...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/read', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(30): view('kategori/read', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 22:17:09 --> Invalid file: kategori/read.php
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/read.p...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/read', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(30): view('kategori/read', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 22:17:20 --> Invalid file: kategori/read.php
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/read.p...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/read', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(30): view('kategori/read', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 22:17:20 --> Invalid file: kategori/read.php
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/read.p...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/read', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(30): view('kategori/read', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 22:17:20 --> Invalid file: kategori/read.php
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/read.p...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/read', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(30): view('kategori/read', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 22:17:33 --> Invalid file: kategori/read.php
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/read.p...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/read', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(30): view('kategori/read', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 22:17:33 --> Invalid file: kategori/read.php
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/read.p...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/read', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(30): view('kategori/read', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 22:17:34 --> Invalid file: kategori/read.php
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/read.p...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/read', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(30): view('kategori/read', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-23 22:17:34 --> Invalid file: kategori/read.php
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kategori/read.p...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/read', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(30): view('kategori/read', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

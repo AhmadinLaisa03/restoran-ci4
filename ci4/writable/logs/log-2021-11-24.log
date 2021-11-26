@@ -1,0 +1,33 @@
+CRITICAL - 2021-11-24 09:46:51 --> syntax error, unexpected token "++"
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Common.php(1097): CodeIgniter\View\View->render('kategori/select', Array, true)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(29): view('kategori/select', Array)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->read()
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-24 10:43:47 --> Allowed fields must be specified for model: App\Models\kategorimodel
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\kate...')
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\restoran-ci4\ci4\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(52): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->insert()
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#6 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-24 22:21:06 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2021-11-24 22:21:06 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\restoran-ci4\ci4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\restoran-ci4\ci4\system\Database\BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\restoran-ci4\ci4\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\restoran-ci4\ci4\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\restoran-ci4\ci4\app\Controllers\Admin\kategori.php(73): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\kategori->delete('38')
+#8 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\kategori))
+#9 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
