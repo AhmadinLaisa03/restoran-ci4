@@ -2,17 +2,36 @@
 
 <?= $this->section('content') ?>
 
-    <h1> UPDATE DATA </h1>
+<!-- alert eror -->
+<div class="col-7">
+    <?php
+    if (!empty(session()->getFlashdata('infoeror'))) {
+        echo "<div class='alert alert-danger'>";
+        echo session()->getFlashdata('infoeror');
+        echo "</div>";
+    }
 
+    ?>
+</div>
+
+<div class="col">
+    <h3> UPDATE DATA </h3>
+</div>
+
+<div class="col-8">
     <form action="<?= base_url() ?>/Admin/kategori/update" method="post">
-        Kategori : <input type="text" name="kategori" value="<?= $kategori['kategori'] ?>" required>
-        <br>
-        <br>
-        Keterangan : <input type="text" name="keterangan" value="<?= $kategori['keterangan'] ?>" required>
-        <br>
-        <br>
+        <div class="form-group mb-3">
+            <label for="inputkategori">Kategori </label>
+            <input class="form-control" type="text" name="kategori" value="<?= $kategori['kategori'] ?>" id="inputkategori" required>
+
+            <label for="inputketerangan">Keterangan </label>
+            <input class="form-control" type="text" name="keterangan" value="<?= $kategori['keterangan'] ?>" id="inputketerangan" required>
+        </div>
+
         <input type="hidden" name="idkategori" value="<?= $kategori['idkategori'] ?>" required>
-        <input type="submit" name="simpan" value="SIMPAN">
+
+        <input class="btn btn-success" type="submit" name="simpan" value="SIMPAN">
     </form>
+</div>
 
 <?= $this->endSection() ?>

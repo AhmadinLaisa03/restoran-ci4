@@ -1,0 +1,24 @@
+CRITICAL - 2021-11-28 04:17:41 --> Class "App\Models\pelangganmodel" not found
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\pelanggan->index()
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\pelanggan))
+#2 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 04:18:50 --> Class "App\Models\pelangganmodel" not found
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\pelanggan->index()
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\pelanggan))
+#2 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 04:18:54 --> Class "App\Models\pelangganmodel" not found
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\pelanggan->index()
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\pelanggan))
+#2 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 04:21:01 --> Class "App\Models\pelangganmodel" not found
+#0 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(824): App\Controllers\Admin\pelanggan->index()
+#1 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\pelanggan))
+#2 C:\xampp\htdocs\restoran-ci4\ci4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\restoran-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
